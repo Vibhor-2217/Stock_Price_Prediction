@@ -1,0 +1,44 @@
+# --- Python virtual envs ---
+.venv/
+venv/
+env/
+
+# --- Python cache / compiled ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*mypy_cache*/
+*.pytest_cache/
+CACHEDIR.TAG
+
+# --- Data (reproducible from scripts) ---
+data/raw/
+data/processed/
+grpo/eval_grpo_block.py
+grpo/eval_grpo_selector.py
+grpo/grpo_trainer_v1.py
+grpo/train_grpo_block.py
+grpo/train_grpo_block_cls.py
+grpo/train_grpo_selector.py
+evaluate_model_v1.py
+grpo_block_v1.pt
+run_training_v1.py
+train_real_data_v1.py
+
+# --- Model checkpoints & learned weights ---
+**/*.pt
+*.ckpt
+
+# --- Logs / temp ---
+logs/
+*.log
+tmp/
+outputs/

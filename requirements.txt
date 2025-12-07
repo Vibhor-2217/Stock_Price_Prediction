@@ -1,0 +1,13 @@
+# Core scientific stack
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+
+# Technical indicators
+ta>=0.10
+
+# Optional: data download (if using yfinance_loader.py)
+yfinance>=0.2
+
+# Optional: HMM regime encoder backend
+hmmlearn>=0.3
