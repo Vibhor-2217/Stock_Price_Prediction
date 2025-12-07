@@ -36,6 +36,7 @@ train_real_data_v1.py
 # --- Model checkpoints & learned weights ---
 **/*.pt
 *.ckpt
+.pt
 
 # --- Logs / temp ---
 logs/
